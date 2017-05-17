@@ -1,4 +1,4 @@
-# how-deep-I-know-spring project;
+# How-deep-me-in-SPRING project;
 
 <h2>Training grounds to learn SPRING framework.</h2>
 </p>
