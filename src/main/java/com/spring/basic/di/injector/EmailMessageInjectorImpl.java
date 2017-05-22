@@ -6,7 +6,6 @@ import com.spring.basic.di.service.EmailMessageSenderImpl;
 
 public class EmailMessageInjectorImpl implements MessageInjector {
 
-	@Override
 	public Consumer getConsumer() {
 		
 		return new AssistantImpl(new EmailMessageSenderImpl());
