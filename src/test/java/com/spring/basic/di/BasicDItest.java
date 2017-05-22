@@ -18,12 +18,11 @@ public class BasicDItest {
 		//mock the injector with anonymous class
 		injector = new MessageInjector() {
 			
-			@Override
 			public Consumer getConsumer() {
 				//mock the message service
 				return new AssistantImpl(new MessageSender() {
 					
-					@Override
+				
 					public void sendMessage(String msg, String rec) {
 						System.out.println("Mock Message Service implementation");
 						

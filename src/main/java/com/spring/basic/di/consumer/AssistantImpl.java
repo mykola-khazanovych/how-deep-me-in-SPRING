@@ -9,7 +9,6 @@ public class AssistantImpl implements Consumer {
 		this.msender = ms;
 	}
 	
-	@Override
 	public void send(String msg, String addr) {
 		msender.sendMessage(msg, addr);
 	}
