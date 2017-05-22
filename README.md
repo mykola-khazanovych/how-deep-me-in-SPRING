@@ -6,3 +6,5 @@
 </p>
 1. Pure Java-core Dependency Injection pattern.
 </p>
+2. Basic Spring Dependency Injection (annotated) pattern.
+</p>
